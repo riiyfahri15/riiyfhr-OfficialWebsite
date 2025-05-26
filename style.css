@@ -193,6 +193,7 @@ footer {
     }
     .card-item {
         width: 100%;
+        opacity: 0.7;
     }
     .container {
         width: 100%;
