@@ -84,8 +84,7 @@
         }
 
         if (window.location.hash === "#project") {
-            window.location.hash = ""; // hapus hash
-            window.location.reload();  // reload ke halaman utama
+        window.location.replace(window.location.pathname); // hapus hash & reload ke atas
         }
     </script>
 </body>
